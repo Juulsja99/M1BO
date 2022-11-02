@@ -157,7 +157,7 @@ def vraag1():
   else:
     print("That is not a valid anwser, try again")
     time.sleep(3)
-    return vraag1()
+    vraag1()
 
 def scene1A():
     print("Zilomia it is.")
